@@ -8,7 +8,7 @@
 </head>
 
 <body>
-  <header>
+  <header id="header">
     <div class="container">
       <div id="branding">
         <h1><span class="highlight">Cornetto</h1>
@@ -16,8 +16,8 @@
       <nav>
         <ul class="nav">
           <li class="current"><a href="index.html">References</a></li>
-          <li><a href="#">Flavours</a></li>
-          <li><a href="#">Prices</a></li>
+          <li><a href="#flavour">Flavours</a></li>
+          <li><a href="">Media</a></li>
         </ul>
       </nav>
     </div>
@@ -31,9 +31,9 @@
 
   <section id="newsletter">
     <div class="container"
-     <h1> Subscribe to find out more </h1>
-     <form>
-       <input type="email" placeholder="Enter your email here">
+     <h1> Subscribe </h1>
+     <form id="email" action="https://www.freecodecamp.com/email-submit">
+       <input name="email" type="email" placeholder="Enter your email here" required>
        <button type="submit" class="button_1"> Subscribe </button>
      </form>
    </div>
@@ -42,21 +42,25 @@
  <section id="boxes">
    <div class="container">
      <div class="box">
-       <img src="strawberry-cornetto.jpeg">
-       <h3> Strawberry </h3>
-       <p> MMMM </p>
+       <img src="https://d8h5t5k9.stackpathcdn.com/wp-content/uploads/2017/12/9013-cornetto-strawberry-120ml-sleeve-front-1000x1000.jpg">
+       <h3 id="flavour"> Strawberry </h3>
+         <p> Probably the worst of our flavours, but hey if you like it, go for it.  </p>
      </div>
             <div class="box">
-        <img src="vanilla-cornetto.jpg">
+        <img src="https://d8h5t5k9.stackpathcdn.com/wp-content/uploads/2017/12/8058-18902-cornetto-classico-120ml-wrapper-front-1000x1000.jpg">
         <h3> Classic </h3>
-        <p> MMMM </p>
+        <p> Boring but does the job</p>
       </div>
       <div class="box">
-        <img src="mint-cornetto.jpeg">
+        <img src="https://d8h5t5k9.stackpathcdn.com/wp-content/uploads/2017/12/6462-cornetto-mint-125ml-sleeve-front-1000x1000.jpg">
         <h3> Mint </h3>
-        <p> MMMM </p>
+        <p> Obviously, the superior choice. </p>
       </div>
     </div>
+  </section>
+  
+  <section id="video">
+    <iframe id="video" <iframe width="560" height="315" src="https://www.youtube.com/embed/7PNPaA02alg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </section>
 
   <footer>
